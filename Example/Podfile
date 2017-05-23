@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'SayHello6_Example' do
+  pod 'SayHello6', :path => '../'
+
+  target 'SayHello6_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
