@@ -1,0 +1,16 @@
+PODS:
+  - SayHello6 (0.1.0)
+
+DEPENDENCIES:
+  - SayHello6 (from `../`)
+
+EXTERNAL SOURCES:
+  SayHello6:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SayHello6: 7856c161d9330b4fcee9b783060c0e05bf9d18cf
+
+PODFILE CHECKSUM: 37280c0cce0a7e68fe8bd9ba9eac19d6f0ae1257
+
+COCOAPODS: 1.2.1

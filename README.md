@@ -17,12 +17,13 @@ SayHello6 is available through [CocoaPods](http://cocoapods.org). To install
 it, simply add the following line to your Podfile:
 
 ```ruby
-pod "SayHello6"
+pod 'SayHello6'
 ```
 
 ## Author
 
-r.khalafi65@gmail.com, r.khalafi65@gmail.com
+Reza Khalafi, r.khalafi65@gmail.com
+Just for laravel encryption test.
 
 ## License
 

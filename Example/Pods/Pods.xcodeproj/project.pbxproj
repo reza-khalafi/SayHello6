@@ -1,0 +1,772 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		38830D50AB14AB5A18CED45DB2410F44 /* Pods-SayHello6_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 735DD6D080AFD46A6B24774757A40CD4 /* Pods-SayHello6_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		49BB6FFE377F298E8C623BB14080C830 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		55715830EE77A472553B0FAC10C9B84B /* SayHello6-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 74DF796F6E10869C7378BA6D50D7040D /* SayHello6-dummy.m */; };
+		6FB515A54BEEEE6F7DAC0A23F7BC6D7E /* Pods-SayHello6_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BDAE83E2C56AE164A36F1B4E55304AB3 /* Pods-SayHello6_Example-dummy.m */; };
+		7A29E859F5783D88ADE940BA2EAF6167 /* SayHello6-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = D802147F5E8DC09E6769267051903423 /* SayHello6-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E715A21ED470440032D740 /* LaraCrypt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 83E715A11ED470440032D740 /* LaraCrypt.swift */; };
+		83E715AB1ED470520032D740 /* CommonCrypto.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E715A31ED470520032D740 /* CommonCrypto.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E715AC1ED470520032D740 /* CommonCryptoError.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E715A41ED470520032D740 /* CommonCryptoError.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E715AD1ED470520032D740 /* CommonCryptor.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E715A51ED470520032D740 /* CommonCryptor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E715AE1ED470520032D740 /* CommonDigest.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E715A61ED470520032D740 /* CommonDigest.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E715AF1ED470520032D740 /* CommonHMAC.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E715A71ED470520032D740 /* CommonHMAC.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E715B01ED470520032D740 /* CommonKeyDerivation.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E715A81ED470520032D740 /* CommonKeyDerivation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E715B11ED470520032D740 /* CommonRandom.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E715A91ED470520032D740 /* CommonRandom.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E715B21ED470520032D740 /* CommonSymmetricKeywrap.h in Headers */ = {isa = PBXBuildFile; fileRef = 83E715AA1ED470520032D740 /* CommonSymmetricKeywrap.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9E1FC366E9006F5BD50548EB25A17925 /* Pods-SayHello6_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9B78D6041579D8DB70CF9D4A84181A72 /* Pods-SayHello6_Tests-dummy.m */; };
+		9F25DFC5EF4CF00EC4A6172F6B9DDBE6 /* Pods-SayHello6_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = EFABB55E538755A70D5D36D86F6B7DC9 /* Pods-SayHello6_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FDDCB6E4427ED8CEDBC348AB329544B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+		C016030BCCEA34D663E7C60BA07BE0DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7580A63D8B59315AE2D916CC54F7C34E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 093EB6ED6B5CF8B3F91C11137636B196;
+			remoteInfo = SayHello6;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		056FDC6160EF7516FA96FCE5592679A8 /* Pods-SayHello6_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SayHello6_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		067158F3DB8CBB9F3236536E0B7236B0 /* Pods-SayHello6_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SayHello6_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		0C5DD5136693EFDCD1D4A962B4ED84E2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		229583BE091DCA3D2464AD2D9B96785A /* Pods-SayHello6_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SayHello6_Example.release.xcconfig"; sourceTree = "<group>"; };
+		258F9669668EE5F8510CE8AF20527872 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D8270A923F789B14E94596CDE68388A /* Pods-SayHello6_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SayHello6_Example-resources.sh"; sourceTree = "<group>"; };
+		301F767859CC3B5C28A29D2545B297C0 /* Pods-SayHello6_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SayHello6_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		370D432D3EC5C4AC0AC3C392FCD51DF0 /* SayHello6-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SayHello6-prefix.pch"; sourceTree = "<group>"; };
+		4DC8EBC4FE0370C1E4276E6A4066EFA9 /* Pods-SayHello6_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SayHello6_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4E68336262147E920B5296FA01DE48F4 /* Pods_SayHello6_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SayHello6_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		66C107774926F83790D35CE4803E3A41 /* Pods_SayHello6_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SayHello6_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BCD0435077D14C0D76B3FE87C88F5CA /* Pods-SayHello6_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SayHello6_Tests-frameworks.sh"; sourceTree = "<group>"; };
+		6DA892EA9ECF229E6A91B47A1B391F34 /* Pods-SayHello6_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SayHello6_Tests-resources.sh"; sourceTree = "<group>"; };
+		735DD6D080AFD46A6B24774757A40CD4 /* Pods-SayHello6_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SayHello6_Example-umbrella.h"; sourceTree = "<group>"; };
+		74DF796F6E10869C7378BA6D50D7040D /* SayHello6-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SayHello6-dummy.m"; sourceTree = "<group>"; };
+		83E715A11ED470440032D740 /* LaraCrypt.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LaraCrypt.swift; sourceTree = "<group>"; };
+		83E715A31ED470520032D740 /* CommonCrypto.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCrypto.h; sourceTree = "<group>"; };
+		83E715A41ED470520032D740 /* CommonCryptoError.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptoError.h; sourceTree = "<group>"; };
+		83E715A51ED470520032D740 /* CommonCryptor.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonCryptor.h; sourceTree = "<group>"; };
+		83E715A61ED470520032D740 /* CommonDigest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonDigest.h; sourceTree = "<group>"; };
+		83E715A71ED470520032D740 /* CommonHMAC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonHMAC.h; sourceTree = "<group>"; };
+		83E715A81ED470520032D740 /* CommonKeyDerivation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonKeyDerivation.h; sourceTree = "<group>"; };
+		83E715A91ED470520032D740 /* CommonRandom.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonRandom.h; sourceTree = "<group>"; };
+		83E715AA1ED470520032D740 /* CommonSymmetricKeywrap.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CommonSymmetricKeywrap.h; sourceTree = "<group>"; };
+		882FAF9B25DDD97E69EB604069758D2B /* Pods-SayHello6_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SayHello6_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		8B2BE0B51C55B9F4B6C1AD594115F281 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		960449B1EC3B30E731BB15F71D666C1A /* Pods-SayHello6_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SayHello6_Example.modulemap"; sourceTree = "<group>"; };
+		9B78D6041579D8DB70CF9D4A84181A72 /* Pods-SayHello6_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SayHello6_Tests-dummy.m"; sourceTree = "<group>"; };
+		A3B164CB38A4EB97BB02C3CDB2106664 /* SayHello6.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = SayHello6.modulemap; sourceTree = "<group>"; };
+		AAABE29B94AFA5585E160BAA3B38F445 /* SayHello6.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SayHello6.xcconfig; sourceTree = "<group>"; };
+		B3BBA9A4F55EBC307CD2E186B743553A /* SayHello6.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = SayHello6.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDAE83E2C56AE164A36F1B4E55304AB3 /* Pods-SayHello6_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SayHello6_Example-dummy.m"; sourceTree = "<group>"; };
+		D38777218FBB950FFB07BD306DD3D609 /* Pods-SayHello6_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-SayHello6_Tests.modulemap"; sourceTree = "<group>"; };
+		D802147F5E8DC09E6769267051903423 /* SayHello6-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SayHello6-umbrella.h"; sourceTree = "<group>"; };
+		EB9513E30DF4EAFD4B10AD18E3EC6C4E /* Pods-SayHello6_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SayHello6_Tests.debug.xcconfig"; sourceTree = "<group>"; };
+		EFABB55E538755A70D5D36D86F6B7DC9 /* Pods-SayHello6_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-SayHello6_Tests-umbrella.h"; sourceTree = "<group>"; };
+		F118FB2718195A500AFA0C3946047855 /* Pods-SayHello6_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SayHello6_Example-frameworks.sh"; sourceTree = "<group>"; };
+		F99AB926B02E4083B167E52C30B98CC1 /* Pods-SayHello6_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SayHello6_Tests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0489D2B5098134E0D60FEC858F0FA350 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9FDDCB6E4427ED8CEDBC348AB329544B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		62A434C3605AF740EC046B6D29955837 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C016030BCCEA34D663E7C60BA07BE0DC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DC8118029F44483418CB2884C9B90C21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49BB6FFE377F298E8C623BB14080C830 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		16D8CDE74AABA9BF1DC832949443DC6E /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8B2BE0B51C55B9F4B6C1AD594115F281 /* Info.plist */,
+				A3B164CB38A4EB97BB02C3CDB2106664 /* SayHello6.modulemap */,
+				AAABE29B94AFA5585E160BAA3B38F445 /* SayHello6.xcconfig */,
+				74DF796F6E10869C7378BA6D50D7040D /* SayHello6-dummy.m */,
+				370D432D3EC5C4AC0AC3C392FCD51DF0 /* SayHello6-prefix.pch */,
+				D802147F5E8DC09E6769267051903423 /* SayHello6-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/SayHello6";
+			sourceTree = "<group>";
+		};
+		3CB8A7B295E2F86198BD533D6FE1D5DB /* SayHello6 */ = {
+			isa = PBXGroup;
+			children = (
+				50EEEF178C646E906349D7D12A62575A /* SayHello6 */,
+				16D8CDE74AABA9BF1DC832949443DC6E /* Support Files */,
+			);
+			name = SayHello6;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		427FC3D8557A180ED79502E84BFFA2A2 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EDAD69E9D5AA5891A18FC8ACF91E09E2 /* Pods-SayHello6_Example */,
+				826FA5A8B923A65EC4841D9952D7749D /* Pods-SayHello6_Tests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		50EEEF178C646E906349D7D12A62575A /* SayHello6 */ = {
+			isa = PBXGroup;
+			children = (
+				EFCB6676DFFD0A48C215E90F2C383404 /* Classes */,
+			);
+			path = SayHello6;
+			sourceTree = "<group>";
+		};
+		5602E4D51B83E1D19BA2350187935752 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3CB8A7B295E2F86198BD533D6FE1D5DB /* SayHello6 */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				5602E4D51B83E1D19BA2350187935752 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				B4DFB70AE253B4B2A3A62593624D2655 /* Products */,
+				427FC3D8557A180ED79502E84BFFA2A2 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		826FA5A8B923A65EC4841D9952D7749D /* Pods-SayHello6_Tests */ = {
+			isa = PBXGroup;
+			children = (
+				258F9669668EE5F8510CE8AF20527872 /* Info.plist */,
+				D38777218FBB950FFB07BD306DD3D609 /* Pods-SayHello6_Tests.modulemap */,
+				882FAF9B25DDD97E69EB604069758D2B /* Pods-SayHello6_Tests-acknowledgements.markdown */,
+				4DC8EBC4FE0370C1E4276E6A4066EFA9 /* Pods-SayHello6_Tests-acknowledgements.plist */,
+				9B78D6041579D8DB70CF9D4A84181A72 /* Pods-SayHello6_Tests-dummy.m */,
+				6BCD0435077D14C0D76B3FE87C88F5CA /* Pods-SayHello6_Tests-frameworks.sh */,
+				6DA892EA9ECF229E6A91B47A1B391F34 /* Pods-SayHello6_Tests-resources.sh */,
+				EFABB55E538755A70D5D36D86F6B7DC9 /* Pods-SayHello6_Tests-umbrella.h */,
+				EB9513E30DF4EAFD4B10AD18E3EC6C4E /* Pods-SayHello6_Tests.debug.xcconfig */,
+				F99AB926B02E4083B167E52C30B98CC1 /* Pods-SayHello6_Tests.release.xcconfig */,
+			);
+			name = "Pods-SayHello6_Tests";
+			path = "Target Support Files/Pods-SayHello6_Tests";
+			sourceTree = "<group>";
+		};
+		83E715A01ED4702D0032D740 /* CommonCrypto */ = {
+			isa = PBXGroup;
+			children = (
+				83E715A31ED470520032D740 /* CommonCrypto.h */,
+				83E715A41ED470520032D740 /* CommonCryptoError.h */,
+				83E715A51ED470520032D740 /* CommonCryptor.h */,
+				83E715A61ED470520032D740 /* CommonDigest.h */,
+				83E715A71ED470520032D740 /* CommonHMAC.h */,
+				83E715A81ED470520032D740 /* CommonKeyDerivation.h */,
+				83E715A91ED470520032D740 /* CommonRandom.h */,
+				83E715AA1ED470520032D740 /* CommonSymmetricKeywrap.h */,
+			);
+			name = CommonCrypto;
+			sourceTree = "<group>";
+		};
+		B4DFB70AE253B4B2A3A62593624D2655 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4E68336262147E920B5296FA01DE48F4 /* Pods_SayHello6_Example.framework */,
+				66C107774926F83790D35CE4803E3A41 /* Pods_SayHello6_Tests.framework */,
+				B3BBA9A4F55EBC307CD2E186B743553A /* SayHello6.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D35AF013A5F0BAD4F32504907A52519E /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D35AF013A5F0BAD4F32504907A52519E /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				6604A7D69453B4569E4E4827FB9155A9 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		EDAD69E9D5AA5891A18FC8ACF91E09E2 /* Pods-SayHello6_Example */ = {
+			isa = PBXGroup;
+			children = (
+				0C5DD5136693EFDCD1D4A962B4ED84E2 /* Info.plist */,
+				960449B1EC3B30E731BB15F71D666C1A /* Pods-SayHello6_Example.modulemap */,
+				056FDC6160EF7516FA96FCE5592679A8 /* Pods-SayHello6_Example-acknowledgements.markdown */,
+				301F767859CC3B5C28A29D2545B297C0 /* Pods-SayHello6_Example-acknowledgements.plist */,
+				BDAE83E2C56AE164A36F1B4E55304AB3 /* Pods-SayHello6_Example-dummy.m */,
+				F118FB2718195A500AFA0C3946047855 /* Pods-SayHello6_Example-frameworks.sh */,
+				2D8270A923F789B14E94596CDE68388A /* Pods-SayHello6_Example-resources.sh */,
+				735DD6D080AFD46A6B24774757A40CD4 /* Pods-SayHello6_Example-umbrella.h */,
+				067158F3DB8CBB9F3236536E0B7236B0 /* Pods-SayHello6_Example.debug.xcconfig */,
+				229583BE091DCA3D2464AD2D9B96785A /* Pods-SayHello6_Example.release.xcconfig */,
+			);
+			name = "Pods-SayHello6_Example";
+			path = "Target Support Files/Pods-SayHello6_Example";
+			sourceTree = "<group>";
+		};
+		EFCB6676DFFD0A48C215E90F2C383404 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				83E715A11ED470440032D740 /* LaraCrypt.swift */,
+				83E715A01ED4702D0032D740 /* CommonCrypto */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		312D1BF2C9D646A42D0D49B4ED7E4633 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9F25DFC5EF4CF00EC4A6172F6B9DDBE6 /* Pods-SayHello6_Tests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		548D5268FCA1B57C9ED82C7720CAF214 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E715AB1ED470520032D740 /* CommonCrypto.h in Headers */,
+				83E715AD1ED470520032D740 /* CommonCryptor.h in Headers */,
+				7A29E859F5783D88ADE940BA2EAF6167 /* SayHello6-umbrella.h in Headers */,
+				83E715AE1ED470520032D740 /* CommonDigest.h in Headers */,
+				83E715AF1ED470520032D740 /* CommonHMAC.h in Headers */,
+				83E715B21ED470520032D740 /* CommonSymmetricKeywrap.h in Headers */,
+				83E715AC1ED470520032D740 /* CommonCryptoError.h in Headers */,
+				83E715B11ED470520032D740 /* CommonRandom.h in Headers */,
+				83E715B01ED470520032D740 /* CommonKeyDerivation.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B9828D5FAF65D1B19CCE6C36E9D35833 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				38830D50AB14AB5A18CED45DB2410F44 /* Pods-SayHello6_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		093EB6ED6B5CF8B3F91C11137636B196 /* SayHello6 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 862D5A2EF589779667289C1FA14CF918 /* Build configuration list for PBXNativeTarget "SayHello6" */;
+			buildPhases = (
+				FD57DA7FFCB7701FC4EAB06BE75D7E3A /* Sources */,
+				DC8118029F44483418CB2884C9B90C21 /* Frameworks */,
+				548D5268FCA1B57C9ED82C7720CAF214 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SayHello6;
+			productName = SayHello6;
+			productReference = B3BBA9A4F55EBC307CD2E186B743553A /* SayHello6.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		3241E3DA940E4E8CBB5A8863BE115C4F /* Pods-SayHello6_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 633C4937396F454D502D659C62A2C7D8 /* Build configuration list for PBXNativeTarget "Pods-SayHello6_Example" */;
+			buildPhases = (
+				AFFA06B9C95FF240D31D0E85ED36C4EC /* Sources */,
+				0489D2B5098134E0D60FEC858F0FA350 /* Frameworks */,
+				B9828D5FAF65D1B19CCE6C36E9D35833 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				62F9263D9AF3E610B0298B25FF32956D /* PBXTargetDependency */,
+			);
+			name = "Pods-SayHello6_Example";
+			productName = "Pods-SayHello6_Example";
+			productReference = 4E68336262147E920B5296FA01DE48F4 /* Pods_SayHello6_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		A244CE018D71B0BD396DA3BD5F79466E /* Pods-SayHello6_Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D698F64F1A70BB718112E0C6C7EEFD5D /* Build configuration list for PBXNativeTarget "Pods-SayHello6_Tests" */;
+			buildPhases = (
+				5D887DDEE6BFECE0BCC44AE4B0456CD4 /* Sources */,
+				62A434C3605AF740EC046B6D29955837 /* Frameworks */,
+				312D1BF2C9D646A42D0D49B4ED7E4633 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-SayHello6_Tests";
+			productName = "Pods-SayHello6_Tests";
+			productReference = 66C107774926F83790D35CE4803E3A41 /* Pods_SayHello6_Tests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0700;
+				TargetAttributes = {
+					093EB6ED6B5CF8B3F91C11137636B196 = {
+						LastSwiftMigration = 0830;
+					};
+				};
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = B4DFB70AE253B4B2A3A62593624D2655 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3241E3DA940E4E8CBB5A8863BE115C4F /* Pods-SayHello6_Example */,
+				A244CE018D71B0BD396DA3BD5F79466E /* Pods-SayHello6_Tests */,
+				093EB6ED6B5CF8B3F91C11137636B196 /* SayHello6 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		5D887DDEE6BFECE0BCC44AE4B0456CD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9E1FC366E9006F5BD50548EB25A17925 /* Pods-SayHello6_Tests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AFFA06B9C95FF240D31D0E85ED36C4EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6FB515A54BEEEE6F7DAC0A23F7BC6D7E /* Pods-SayHello6_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FD57DA7FFCB7701FC4EAB06BE75D7E3A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				83E715A21ED470440032D740 /* LaraCrypt.swift in Sources */,
+				55715830EE77A472553B0FAC10C9B84B /* SayHello6-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		62F9263D9AF3E610B0298B25FF32956D /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SayHello6;
+			target = 093EB6ED6B5CF8B3F91C11137636B196 /* SayHello6 */;
+			targetProxy = 7580A63D8B59315AE2D916CC54F7C34E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1CF78FDDC34FB5FCFE23DACFDEA02007 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EB9513E30DF4EAFD4B10AD18E3EC6C4E /* Pods-SayHello6_Tests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SayHello6_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SayHello6_Tests/Pods-SayHello6_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SayHello6_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		345CC476DF4A7516DBD2220CF5035FF3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		41D163CFD58162F45FFDD1178B0B0D4B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAABE29B94AFA5585E160BAA3B38F445 /* SayHello6.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SayHello6/SayHello6-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SayHello6/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SayHello6/SayHello6.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = SayHello6;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		717E77604BFBB04BEAF56608A1CB2EDE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7E1234E3CAF8FC3EE8A81C0979C82E7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 229583BE091DCA3D2464AD2D9B96785A /* Pods-SayHello6_Example.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SayHello6_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SayHello6_Example/Pods-SayHello6_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SayHello6_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A8B4031DA3ADE16B9EE53D08F0805A41 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 067158F3DB8CBB9F3236536E0B7236B0 /* Pods-SayHello6_Example.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SayHello6_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SayHello6_Example/Pods-SayHello6_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SayHello6_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DE76757E8DA0ADAFCAC2EE36DBDF19A2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F99AB926B02E4083B167E52C30B98CC1 /* Pods-SayHello6_Tests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-SayHello6_Tests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-SayHello6_Tests/Pods-SayHello6_Tests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_SayHello6_Tests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		F3A477D86ED806EC58129D6A9531AE4B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AAABE29B94AFA5585E160BAA3B38F445 /* SayHello6.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/SayHello6/SayHello6-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SayHello6/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/SayHello6/SayHello6.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = SayHello6;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				345CC476DF4A7516DBD2220CF5035FF3 /* Debug */,
+				717E77604BFBB04BEAF56608A1CB2EDE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		633C4937396F454D502D659C62A2C7D8 /* Build configuration list for PBXNativeTarget "Pods-SayHello6_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A8B4031DA3ADE16B9EE53D08F0805A41 /* Debug */,
+				A7E1234E3CAF8FC3EE8A81C0979C82E7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		862D5A2EF589779667289C1FA14CF918 /* Build configuration list for PBXNativeTarget "SayHello6" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				41D163CFD58162F45FFDD1178B0B0D4B /* Debug */,
+				F3A477D86ED806EC58129D6A9531AE4B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D698F64F1A70BB718112E0C6C7EEFD5D /* Build configuration list for PBXNativeTarget "Pods-SayHello6_Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1CF78FDDC34FB5FCFE23DACFDEA02007 /* Debug */,
+				DE76757E8DA0ADAFCAC2EE36DBDF19A2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
