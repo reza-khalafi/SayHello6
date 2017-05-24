@@ -27,7 +27,9 @@ pod 'LaraCrypt'
 There is a main public function in LaraCrypt calss:<br>
 `encrypt` - For use this fucntion you should set two parameters contain base64 key with 44 characters length and your message as a string that you want to be encrypted  
 ```ruby
-let encryptedString : String = LaraCrypt().encrypt(Message: "123456", Key: "u6KuXJLIUwEUl7noY8J8H1ffDRwLC/5gjaWW1qTQ3hE=")
+let key : String = "u6KuXJLIUwEUl7noY8J8H1ffDRwLC/5gjaWW1qTQ3hE="
+let message : String = "123456"
+let encryptedString : String = LaraCrypt().encrypt(Message: message, Key: key)
 ```
 
 ## Support
