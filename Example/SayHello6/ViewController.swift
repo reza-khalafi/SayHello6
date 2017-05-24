@@ -1,9 +1,9 @@
 //
 //  ViewController.swift
-//  SayHello6
+//  LaraCrypt
 //
-//  Created by r.khalafi65@gmail.com on 05/23/2017.
-//  Copyright (c) 2017 r.khalafi65@gmail.com. All rights reserved.
+//  Created by Fardad Co
+//  Copyright © 2017 Fardad Co. All rights reserved.
 //
 
 import UIKit

@@ -1,5 +1,5 @@
 #
-# Be sure to run `pod lib lint SayHello6.podspec' to ensure this is a
+# Be sure to run `pod lib lint LaraCrypt.podspec' to ensure this is a
 # valid spec before submitting.
 #
 # Any lines starting with a # are optional, but their use is encouraged
@@ -7,9 +7,9 @@
 #
 
 Pod::Spec.new do |s|
-  s.name             = 'SayHello6'
+  s.name             = 'LaraCrypt'
   s.version          = '0.1.0'
-  s.summary          = 'This is for lara enc'
+  s.summary          = 'Laravel encryption method for Swift.'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -18,22 +18,22 @@ Pod::Spec.new do |s|
 #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-This is for laravel encryption
+With LaraCrypt, You can encrypt data for communicate with Laravel servers with using AES-256-CBC (Crypt::encrypt()) method and base64 key with 44 characters length
                        DESC
 
-  s.homepage         = 'https://github.com/reza-khalafi/SayHello6'
+  s.homepage         = 'https://github.com/FardadCo/LaraCrypt'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
-  s.author           = { 'reza-khalafi' => 'r.khalafi65@gmail.com' }
-  s.source           = { :git => 'https://github.com/reza-khalafi/SayHello6.git', :tag => s.version.to_s }
-  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
+  s.author           = { 'FardadCo' => 'developers@fardad.co' }
+  s.source           = { :git => 'https://github.com/FardadCo/LaraCrypt.git', :tag => s.version.to_s }
+  s.social_media_url = 'https://twitter.com/fardadco'
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'SayHello6/Classes/**/*'
+  s.source_files = 'LaraCrypt/Classes/**/*'
   
   # s.resource_bundles = {
-  #   'SayHello6' => ['SayHello6/Assets/*.png']
+  #   'SayHello6' => ['LaraCrypt/Assets/*.png']
   # }
 
   # s.public_header_files = 'Pod/Classes/**/*.h'

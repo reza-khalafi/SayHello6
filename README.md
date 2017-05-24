@@ -1,30 +1,39 @@
-# SayHello6
+# LaraCrypt 0.1.0
 
-[![CI Status](http://img.shields.io/travis/r.khalafi65@gmail.com/SayHello6.svg?style=flat)](https://travis-ci.org/r.khalafi65@gmail.com/SayHello6)
-[![Version](https://img.shields.io/cocoapods/v/SayHello6.svg?style=flat)](http://cocoapods.org/pods/SayHello6)
-[![License](https://img.shields.io/cocoapods/l/SayHello6.svg?style=flat)](http://cocoapods.org/pods/SayHello6)
-[![Platform](https://img.shields.io/cocoapods/p/SayHello6.svg?style=flat)](http://cocoapods.org/pods/SayHello6)
+[![CI Status](http://img.shields.io/travis/developers@fardad.co/LaraCrypt.svg?style=flat)](https://travis-ci.org/developers@fardad.co/LaraCrypt)
+[![Version](https://img.shields.io/cocoapods/v/LaraCrypt.svg?style=flat)](http://cocoapods.org/pods/LaraCrypt)
+[![License](https://img.shields.io/cocoapods/l/LaraCrypt.svg?style=flat)](http://cocoapods.org/pods/LaraCrypt)
+[![Platform](https://img.shields.io/cocoapods/p/LaraCrypt.svg?style=flat)](http://cocoapods.org/pods/LaraCrypt)
+[![OS Version](https://img.shields.io/badge/made%20with-%3C3-orange.svg)](http://cocoapods.org/pods/LaraCrypt)
 
-## Example
-
-To run the example project, clone the repo, and run `pod install` from the Example directory first.
+This is a function for encrypt data such as Laravel encryption in Swift.
 
 ## Requirements
 
+- iOS 9.0+
+- Swift 3 (LaraCrypt 0.1.x)
+
 ## Installation
 
-SayHello6 is available through [CocoaPods](http://cocoapods.org). To install
-it, simply add the following line to your Podfile:
+LaraCrypt is available through [CocoaPods](http://cocoapods.org). 
+To install it, simply add the following line to your Podfile:
 
 ```ruby
-pod 'SayHello6'
+pod 'LaraCrypt'
 ```
 
-## Author
+## Usage
 
-Reza Khalafi, r.khalafi65@gmail.com
-Just for laravel encryption test.
+There is a main public function in LaraCrypt calss:
+`encrypt` - For use this fucntion you should set two parameters contain base64 key with 44 characters length and your message as a string that you want to be encrypted  
+```ruby
+let encryptedString : String = LaraCrypt().encrypt(Message: "123456", Key: "u6KuXJLIUwEUl7noY8J8H1ffDRwLC/5gjaWW1qTQ3hE=")
+```
+
+## Support
+
+[Fardad Co](http://fardad.co)
 
 ## License
 
-SayHello6 is available under the MIT license. See the LICENSE file for more info.
+LaraCrypt is available under the MIT license. See the LICENSE file for more info.
